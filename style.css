@@ -37,11 +37,13 @@ main section {
 #home {
   margin-bottom: 0.5em;
 }
-.portfolio-container {
+section .portfolio-container {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
   padding: 1em;
+  width: 30%;
+
 }
 section .portfolio-item {
   background-color: #fff;
@@ -68,7 +70,7 @@ section .portfolio-item img {
 section .portfolio-item:hover {
   transform: scale(1.05);
 }
-#footer {
+footer #footer {
   background-color: #222;
   color: #fff;
   text-align: center;
