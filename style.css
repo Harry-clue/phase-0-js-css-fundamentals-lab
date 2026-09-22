@@ -37,21 +37,19 @@ main section {
 #home {
   margin-bottom: 0.5em;
 }
-section .portfolio-container {
+.portfolio-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   padding: 1em;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .portfolio-item {
   background-color: #fff;
   border: 1px solid #ddd;
   margin: 1em;
   padding: 1em;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 30% ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
   box-sizing: border-box;
   transition: transform 0.3s;
 }
@@ -65,7 +63,7 @@ section .portfolio-container {
 }
 .portfolio-item img {
   width: 100%;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .portfolio-item:hover {
   transform: scale(1.05);
