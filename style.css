@@ -45,7 +45,7 @@ section .portfolio-container {
   width: 30%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-article .portfolio-item {
+.portfolio-item {
   background-color: #fff;
   border: 1px solid #ddd;
   margin: 1em;
@@ -55,19 +55,19 @@ article .portfolio-item {
   box-sizing: border-box;
   transition: transform 0.3s;
 }
-article .portfolio-item h3 {
+.portfolio-item h3 {
   font-weight: bold;
   margin-bottom: 0.5em;
 }
-article .portfolio-item p {
+.portfolio-item p {
   margin-bottom: 0.5em;  
   color: #666;
 }
-article .portfolio-item img {
+.portfolio-item img {
   width: 100%;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
-article .portfolio-item:hover {
+.portfolio-item:hover {
   transform: scale(1.05);
 }
 footer #footer {
